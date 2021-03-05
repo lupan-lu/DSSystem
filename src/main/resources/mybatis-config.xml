@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 别名定义 -->
+	<typeAliases>
+		<package name="com.whpu.po" />
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="com/whpu/dao/AdminDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/ClassDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/DormCleanDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/DormitoryDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/DormRepairDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/StudentCleanDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/StudentDao.xml"></mapper>
+		<mapper resource="com/whpu/dao/VisitorDao.xml"></mapper>
+	</mappers>
+</configuration>
